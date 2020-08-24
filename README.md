@@ -1,5 +1,5 @@
 # git
-# Version Control :
+# Version Control ->
 Is a system that allows you to revisit various versions of a file or set of files by recording changes. Through version control, one can revert a file or project to a previous version, track modifications and modifying individuals, and compare changes. By utilizing a Version Control System (VCS), mistakes with files can easily be rectified.
 * Local Version Control
  *A Local VCS entails one database on your hard disk that stores changes to files.*
@@ -15,7 +15,18 @@ Is a system that allows you to revisit various versions of a file or set of file
 * what is Git?
 Git is a DVCS that stores data in a file system made up of snapshots. Each time you save a changed version of your project — called commit — Git creates a snapshot of the file and stores a reference to it. If the file has not changed, Git only stores a reference to the already-stored identical version of it.
 
-# *Key word for Git
+# *Keyword for Git
 	-Snapshots
 	-Local Operations
 	-Tracking Changes
+	 
+** Workflow **
+Local Repository Structure
+The local Git repository has three components:
+
+ 1. Working Directory: The actual files reside here.
+ 2.Index: The area used for staging
+ 3.Head: Points to the most recent commit
+ ![repo img](https://blog.udemy.com/wp-content/uploads/2015/08/image036.png)
+ 
+ 
